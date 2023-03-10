@@ -1,0 +1,300 @@
+*{
+
+    margin: 0 ;
+    padding: 0 ;
+    list-style: none ;
+    font-family:cursive;
+
+    /* se recomienda formatear los valores que vienen por
+       defecto en las hojas de estilo. usando el selector
+       universal "*". */
+
+}
+
+
+#chat{
+
+    position: fixed;
+    width: 250px;
+    height: 40px ;
+    background: turquoise;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px 20px 0px 0px;
+    cursor:cell  ;
+
+
+}
+
+header{
+
+    position:relative ;
+    margin: 20 auto;
+    width: 1000px;
+    height: 120px;
+}
+
+#logo{
+        /* position ABSOLUTE: nos permite ubicar una caja 
+        interna dentro de una principal*/
+
+    position:absolute;
+    top: 30px;
+    left: 30px;
+    width: 200px;
+    height: 60px;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 40px;
+    text-align: center;
+    line-height: 60px;
+    color: rgba(255, 0, 0, 0.781);
+}
+
+.redes{
+
+    position:absolute;
+  
+    width: 42px;
+    height: 42px;
+    background: red;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 42px;
+    color: white;
+}
+
+#icono1{
+    top: 42px;
+    right: 126px;
+    background-color: blue;
+}
+
+#icono2{
+    top: 42px;
+    right: 73px;
+    background-color: green;
+    
+}
+
+#icono3{
+    top: 42px;  
+    right: 19px;
+    background-color: red;
+}
+
+nav{
+
+    position:relative ;
+    margin: 20 auto;
+    width: 1000px;
+    height: 48px;
+    
+
+}
+
+.botones{
+
+    float:left;
+    width: 246px;
+    height: 40px;
+    margin: 4px 2px;
+    background:rgb(117, 3, 3);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    color: black;
+
+}
+
+a .botones:hover{
+
+    background: rgba(3, 20, 117, 0.555)  ;
+
+}
+
+a .botones:active{
+
+    background: rgb(3, 20, 117 ) ;
+
+}
+
+#top{
+    
+    position:relative ;
+    margin: 20 auto;
+    width: 1000px;
+    height: 200px;
+  
+
+}
+
+#top ul li{
+
+    float:left;
+    width: 331px ;
+    height: 190px ;             
+    margin: 5px 1px;
+    text-align: center;
+    
+}
+
+#top ul li img{
+
+    border-radius: 100%;
+    height: 100px;
+
+}
+
+#top ul li h1{
+
+    font-family: 'Tilt Prism', cursive;
+
+}
+
+#top ul li p{
+
+    
+    margin: 10px;
+
+}
+
+section{
+
+    position:relative ;
+    margin: 20 auto;
+    width: 1000px;
+    height: 453px;
+ 
+    
+}
+
+
+aside#izq{
+
+    position:absolute;
+    left: 0px;
+    width: 200px;
+    height: 453px;
+    margin-top: 27px;
+    
+}
+
+aside#izq ul li{
+
+    background: rgba(101, 175, 153, 0.76);
+    padding: 10px;
+    margin:10px 2px;
+
+}
+
+aside#izq ul li a{
+
+    text-decoration: none;
+    color: rgb(205, 50, 50);
+}
+
+article{
+
+    position:absolute;
+    left: 201px;
+    width: 600px;
+    height: 453px;
+  
+    
+}
+
+article h1{
+
+    font-family: 'Tilt Prism', cursive;
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+article img{
+
+    float: left;
+    margin-right: 20px;
+}
+
+article p {
+
+    margin: 5px 5px;
+    font-size: 13px;
+    text-align: justify;
+
+}
+
+aside#der{
+
+    position:absolute;
+    right:0px;
+    width: 200px;
+    height: 453px;
+    margin-top: 35px;
+
+}
+
+aside#der h1{
+
+    background: rgb(117, 3, 3);
+    width: 215px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 5px 5px;
+
+}
+
+aside#der input{
+
+    padding: 10px;
+    margin: 5px 5px;
+    height: 50px;
+
+
+
+}
+
+aside#der input[type="text"]{
+
+    background:url( img/50x50.png );
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: contain ;
+}
+
+
+aside#der input[type="password"]{
+
+    background:url( img/50x50.png );
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: contain ;
+}    
+
+aside#der input[type="submit"]{
+    
+    width: 215;
+    height: 50px;
+    
+}  
+
+footer{
+
+    position:relative ;
+    margin: 20 auto;
+    width: 1000px;
+    height: 70px;
+    background:rgb(117, 3, 3) ;
+    text-align:center;
+    line-height: 70px;
+    color: white;
+}
